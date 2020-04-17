@@ -141,7 +141,7 @@ local function checkCardDropWeight(num)
     end
     assert(false, "抽卡权重计算失败")
 end
-local tableid = 7
+local tableid = 3
 print(string.format("表%d 校验10000次", tableid))
 local cardStat = {0, 0, 0, 0, 0, 0, 0, 0}
 for i = 1, 10000 do
